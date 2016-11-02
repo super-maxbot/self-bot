@@ -1,14 +1,10 @@
-# Beyond Self Bot Version 2.0
-
-#Installation
-### Install dependencies.
-### Tested on Ubuntu 14.04.
+Versian-2.0
 ```
 sudo apt-get update 
 sudo apt-get upgrade
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 cd $HOME
-git clone https://github.com/Tarfand-pro/Self-Bot.git -b supergroups
+git clone https://github.com/Super-MaxBot/self-bot.git -b supergroups
 cd Self-Bot
 chmod +x launch.sh
 ./launch.sh install
@@ -29,7 +25,7 @@ Then Enter Your Phone And Confirmation Code
 ###Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    555552101,
+   185456746,
     YourID
   }
 ```
