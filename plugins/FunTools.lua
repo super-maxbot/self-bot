@@ -229,7 +229,7 @@ end
        end
       if matches[1]:lower() == "sticker" and is_sudo(msg) then
      redis:get("photo:sticker")  
-    send_large_msg(receiver, 'By Tarfand.pro :)', ok_cb, false)
+    send_large_msg(receiver, 'By 🆔 @Super_MaxBot :)', ok_cb, false)
         load_photo(msg.reply_id, tosticker, msg)
     end
 end
